@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <cn.colink.fm.view.FreqIndicator
+        android:id="@+id/mMainBottomFreq"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mainBottomFreqHeight"
+        android:progressDrawable="@drawable/freq_indicator_seek"
+        android:thumb="@drawable/cursor"
+        android:thumbOffset="0dip"
+        android:visibility="visible" 
+        android:max="100"
+        android:progress="10"
+        android:background="@drawable/channel_bar"
+        />
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        >
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="@string/defaultFm"
+            />
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="@string/defaultFm"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/mainMiddleListItemHeight"
+    android:background="@drawable/fun_btn_selector" 
+    >
+    
+    <View 
+        android:id="@+id/mItemBg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+	
+    <cn.colink.fm.view.FontTextView 
+        android:id="@+id/mItemChannelIdTv"
+        style="@style/mainTitleText"
+        android:layout_centerVertical="true"
+        android:textSize="@dimen/itemPositionTs"
+        android:layout_marginLeft="@dimen/itemMarginLeft"
+        />
+    
+    <ImageView
+        android:id="@+id/mItemUnitImg"
+        android:layout_width="@dimen/fqChannelWidth"
+        android:layout_height="@dimen/fpChannelHeight"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/khz" 
+        android:scaleType="fitXY"
+        android:layout_marginRight="@dimen/itemMarginRight"
+        />
+
+    <LinearLayout
+        android:id="@+id/mItemFqLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/mItemUnitImg"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+    </LinearLayout>
+
+    <cn.colink.fm.view.FontTextView
+        android:id="@+id/mItemFqTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="@dimen/itemFqTs"
+        />
+
+</RelativeLayout>

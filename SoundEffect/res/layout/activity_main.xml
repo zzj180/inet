@@ -1,0 +1,211 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <cn.lzl.soundeffect.view.MainTitleView
+        android:id="@+id/mMainTitleView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" 
+        android:baselineAligned="false"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="11"
+            android:background="@drawable/bg"
+            android:divider="@drawable/space_divider"
+            android:orientation="horizontal"
+            android:showDividers="beginning|middle|end" >
+
+            <LinearLayout
+                android:id="@+id/mMainBtnRL"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:divider="@drawable/space_divider"
+                android:orientation="vertical"
+                android:showDividers="beginning|middle|end" >
+
+                <Button
+                    android:id="@+id/mMainBtnYaoGun"
+                    style="@style/mainBtnStyle"
+                    android:contentDescription="@string/hello_world"
+                    android:text="@string/yaogun" />
+
+                <Button
+                    android:id="@+id/mMainBtnLiuXin"
+                    style="@style/mainBtnStyle"
+                    android:contentDescription="@string/hello_world"
+                    android:text="@string/liuxin" />
+
+                <Button
+                    android:id="@+id/mMainBtnJieShi"
+                    style="@style/mainBtnStyle"
+                    android:contentDescription="@string/hello_world"
+                    android:text="@string/jieshi" />
+
+                <Button
+                    android:id="@+id/mMainBtnJinDian"
+                    style="@style/mainBtnStyle"
+                    android:contentDescription="@string/hello_world"
+                    android:text="@string/jindian" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" >
+
+                <cn.lzl.soundeffect.view.CustomImgView
+                    android:id="@+id/mMainTreValue"
+                    android:layout_width="@dimen/mMainTreValueWd"
+                    android:layout_height="@dimen/mMainTreValueHg"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    custom:iconDescText="+5"
+                    custom:iconDescTextColor="@color/white"
+                    custom:iconDescTextSize="20dp"
+                    custom:image="@drawable/tre"
+                    custom:imageScaleType="center" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/mMainTreValue"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical" >
+
+                    <Button
+                        android:id="@+id/mMainTreVolumnAddBtn"
+                        style="@style/mainVolumnAddBtnStyle" />
+
+                    <cn.lzl.soundeffect.view.VolumnSelectedView
+                        android:id="@+id/mMainTreVolumnSelected"
+                        android:layout_width="@dimen/mainVolumnSelectedWd"
+                        android:layout_height="@dimen/mainVolumnSelectedHg"
+                        custom:rectHeight="9dp"
+                        custom:rectWidth="40dp"
+                        custom:volumnBg="@drawable/volumn_bg" />
+
+                    <Button
+                        android:id="@+id/mMainTreVolumnSubBtn"
+                        style="@style/mainVolumnSubBtnStyle" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" >
+
+                <cn.lzl.soundeffect.view.CustomImgView
+                    android:id="@+id/mMainBasValue"
+                    android:layout_width="@dimen/mMainTreValueWd"
+                    android:layout_height="@dimen/mMainTreValueHg"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    custom:iconDescText="+5"
+                    custom:iconDescTextColor="@color/white"
+                    custom:iconDescTextSize="20dp"
+                    custom:image="@drawable/bas"
+                    custom:imageScaleType="center" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/mMainBasValue"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical" >
+
+                    <Button
+                        android:id="@+id/mMainBasVolumnAddBtn"
+                        style="@style/mainVolumnAddBtnStyle" />
+
+                    <cn.lzl.soundeffect.view.VolumnSelectedView
+                        android:id="@+id/mMainBasVolumnSelected"
+                        android:layout_width="@dimen/mainVolumnSelectedWd"
+                        android:layout_height="@dimen/mainVolumnSelectedHg"
+                        custom:rectHeight="9dp"
+                        custom:rectWidth="40dp"
+                        custom:volumnBg="@drawable/volumn_bg" />
+
+                    <Button
+                        android:id="@+id/mMainBasVolumnSubBtn"
+                        style="@style/mainVolumnSubBtnStyle" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="8"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="290dp"
+                android:layout_height="290dp"
+                android:background="@drawable/bg" >
+
+                <cn.lzl.soundeffect.view.CarSelectedView
+                    android:id="@+id/mMainCarImg"
+                    android:layout_width="187dp"
+                    android:layout_height="187dp"
+                    custom:carBg="@drawable/car_bg" 
+                    android:layout_centerInParent="true"
+                    />
+
+                <Button
+                    android:id="@+id/mMainCarUp"
+                    style="@style/mainCarSelectBtnStyle"
+                    android:layout_above="@id/mMainCarImg"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/up_selector" />
+
+                <Button
+                    android:id="@+id/mMainCarDown"
+                    style="@style/mainCarSelectBtnStyle"
+                    android:layout_below="@id/mMainCarImg"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/down_selector" />
+
+                <Button
+                    android:id="@+id/mMainCarLeft"
+                    style="@style/mainCarSelectBtnStyle"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@id/mMainCarImg"
+                    android:background="@drawable/left_selector" />
+
+                <Button
+                    android:id="@+id/mMainCarRight"
+                    style="@style/mainCarSelectBtnStyle"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/mMainCarImg"
+                    android:background="@drawable/right_selector" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/mMainBtnReset"
+                style="@style/mainBtnStyle"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/hello_world"
+                android:text="@string/reset" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

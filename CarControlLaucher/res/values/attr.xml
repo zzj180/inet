@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="IconFunView">
+        <attr name="iconText" format="string"/>
+        <attr name="iconTextColor" format="color"/>
+        <attr name="iconTextSize" format="dimension"/>
+        <attr name="iconSrc" format="reference|color"/>
+    </declare-styleable>
+    
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#37474F</color>
+    <color name="colorPrimaryDark">#263238</color>
+    <color name="colorAccent">#009688</color>
+    <color name="colorAccent2">#2196f3</color>
+    <color name="colorAccent3">#e91e63</color>
+    <color name="alph_normal">#00ffffff</color>
+    <color name="alph_press">#22ffffff</color>
+</resources>

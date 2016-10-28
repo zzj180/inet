@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:gravity="center"
+    android:orientation="horizontal" 
+    android:showDividers="middle"
+    android:divider="@drawable/space_divider"
+    >
+
+    <ImageView
+        android:id="@+id/popupVolumn"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_marginLeft="30dp"
+        android:contentDescription="@string/hello_world"
+        android:src="@drawable/volume" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="@string/volume" />
+
+    <ImageView
+        android:id="@+id/popupLeftIv"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:contentDescription="@string/hello_world"
+        android:src="@drawable/left" />
+
+    <SeekBar
+        android:id="@+id/popupSeekBar"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:max="1000" />
+
+    <ImageView
+        android:id="@+id/popupRightIv"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:contentDescription="@string/hello_world"
+        android:src="@drawable/right" />
+
+    <TextView
+        android:id="@+id/popupVolumnValueTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:textSize="20dp"
+        android:text="00" />
+
+</LinearLayout>

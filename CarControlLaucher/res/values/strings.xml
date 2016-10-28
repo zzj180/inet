@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">CoogoLauncher</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="activity_not_found">暂无此服务.</string>
+    <!-- Do not translate. Duration format for duration < 1 hour -->
+    <skip/>
+    <!-- Do not translate. Duration format for duration < 1 hour -->
+    <string translatable="false" name="durationformatshort"><xliff:g id="format">%2$d:%5$02d</xliff:g></string>
+    <!-- Do not translate. Duration format for duration >= 1 hour -->
+    <string translatable="false" name="durationformatlong"><xliff:g id="format">%1$d:%3$02d:%5$02d</xliff:g></string>
+ 	<!-- main activity -->
+ 	<string name="hulian">手机互联</string>
+ 	<string name="fm">收音机</string>
+ 	<string name="navigation">导航</string>
+ 	<string name="bt">蓝牙</string>
+ 	<string name="camera">行车记录仪</string>
+ 	<string name="voice_con">声控</string>
+ 	<string name="ok">确	 认</string>
+ 	<string name="wallpaper">壁纸</string>
+ 	<string name="sz_weather">深圳的天气</string>
+ 	<string name="music">音乐</string>
+ 	<string name="movies">视频</string>
+</resources>

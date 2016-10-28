@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+ 	<string name="app_name">收音机</string>
+ 	<string name="st">ST</string>
+    <string name="md">MO</string>
+    <string name="search">	搜     索</string>
+    <string name="band">	波     段</string>
+    <string name="a_ps">	预     览</string>
+    <string name="pre"> 	上一个</string>
+    <string name="next">	下一个</string>
+</resources>

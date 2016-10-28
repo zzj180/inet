@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/displayBg"
+    android:layout_width="@dimen/displayBgWidth"
+    android:layout_height="@dimen/displayBgHeight"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <cn.colink.fm.view.FontTextView
+        android:id="@+id/mDisplayFqTv"
+  		style="@style/mainTitleText"
+        android:layout_centerInParent="true"
+        android:text="@string/defaultFm"
+        android:textSize="55sp" 
+        />
+
+    <ImageView
+        android:id="@+id/mFqChannelImg"
+        android:layout_width="@dimen/fqChannelWidth"
+        android:layout_height="@dimen/fpChannelHeight"
+        android:layout_above="@id/mDisplayFqTv"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/app_name"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/fm1" />
+
+    <ImageView
+        android:id="@+id/mFqUnitImg"
+        android:layout_width="@dimen/fqChannelWidth"
+        android:layout_height="@dimen/fpChannelHeight"
+        android:layout_below="@id/mDisplayFqTv"
+        android:contentDescription="@string/app_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/khz" />
+    
+
+</RelativeLayout>

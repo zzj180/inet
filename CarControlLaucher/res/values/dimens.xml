@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="weight_padding">10dp</dimen>
+    <dimen name="page_margin">15dp</dimen>
+    
+    <dimen name="code_width">220dp</dimen>
+    <dimen name="code_height">220dp</dimen>
+    <dimen name="music_album_size">220dp</dimen>
+    <!-- main activity -->
+    <dimen name="mMainBtmBg">138dp</dimen>
+    <dimen name="mMainBtmPadding">36.5dp</dimen>
+    <dimen name="mMainBtmDivider">30dp</dimen>
+    <dimen name="mMainIcon">82dp</dimen>
+    <dimen name="mMainAppIconWd">88dp</dimen>
+    <dimen name="mMainAppIconHg">112dp</dimen>
+    <dimen name="mMainFunTvSize">18dp</dimen>
+    <dimen name="mMainVpHg">138dp</dimen>
+    <dimen name="mMainMarginBtm">20dp</dimen>
+    <dimen name="mMainTimeLabelWd">300dp</dimen>
+    <dimen name="mMainTimeLabelHg">100dp</dimen>
+    <dimen name="mMainTimeLabelTextSize">40dp</dimen>
+    <dimen name="mMainDateLabelTextSize">15dp</dimen>
+    <dimen name="mMainCloseScreenWd">54dp</dimen>
+    <dimen name="mMainCloseScreenHg">38dp</dimen>
+    <dimen name="app_icon_size">50dp</dimen>
+
+</resources>

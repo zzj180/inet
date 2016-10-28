@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/mainMiddleHeight"
+    android:divider="@drawable/display_fq_space_divider"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/mainMiddleSideMarginleft"
+    android:paddingRight="@dimen/mainMiddleSideMarginRight"
+    android:showDividers="middle" >
+
+    <RelativeLayout style="@style/mainMiddleSidesStyle" >
+
+        <ListView
+            android:id="@+id/mMainMiddleLeftList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:divider="@color/trans"
+            android:dividerHeight="@dimen/mainMiddleSidesListDividHeight" />
+    </RelativeLayout>
+
+    <cn.colink.fm.view.DisplayFqView
+        android:id="@+id/mMainMiddleDisplay"
+        android:layout_width="@dimen/displayBgWidth"
+        android:layout_height="@dimen/displayBgHeight"
+        />
+
+    <RelativeLayout style="@style/mainMiddleSidesStyle" >
+
+        <ListView
+            android:id="@+id/mMainMiddleRightList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:divider="@color/trans"
+            android:dividerHeight="@dimen/mainMiddleSidesListDividHeight" />
+    </RelativeLayout>
+
+</LinearLayout>

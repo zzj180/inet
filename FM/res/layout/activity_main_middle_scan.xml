@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:gravity="center_vertical|center_horizontal"
+    >
+
+    <ImageButton
+        android:id="@+id/mMainPrevFreqBtn"
+        style="@style/mainMiddleAdjustImgBtnStyle"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/main_middle_previous_channel_selector" />
+
+    <View
+        android:layout_width="@dimen/mainMiddleAdjustDividWidth"
+        android:layout_height="@dimen/mainMiddleAdjustDividHeight" />
+
+    <ImageButton
+        android:id="@+id/mMainLeftStepBtn"
+        style="@style/mainMiddleAdjustImgBtnStyle"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/main_middle_move_left_selector" />
+
+    <View
+        android:layout_width="@dimen/mainMiddleAdjustDividWidth"
+        android:layout_height="@dimen/mainMiddleAdjustDividHeight" />
+
+    <ImageButton
+        android:id="@+id/mMainAutoScanImgBtn"
+        android:layout_width="@dimen/mainMiddleAutoScanImgBtnWidth"
+        android:layout_height="@dimen/mainMiddleAutoScanImgBtnHeight"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/main_middle_auto_scan_selector" 
+        android:background="@color/trans"
+        />
+
+    <View
+        android:layout_width="@dimen/mainMiddleAdjustDividWidth"
+        android:layout_height="@dimen/mainMiddleAdjustDividHeight" />
+
+    <ImageButton
+        android:id="@+id/mMainRightStepBtn"
+        style="@style/mainMiddleAdjustImgBtnStyle"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/main_middle_move_right_selector" />
+
+    <View
+        android:layout_width="@dimen/mainMiddleAdjustDividWidth"
+        android:layout_height="@dimen/mainMiddleAdjustDividHeight" />
+
+    <ImageButton
+        android:id="@+id/mMainNextFreqBtn"
+        style="@style/mainMiddleAdjustImgBtnStyle"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/main_middle_next_channel_selector" />
+
+</LinearLayout>

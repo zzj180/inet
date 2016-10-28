@@ -1,0 +1,28 @@
+<resources>
+
+	<!-- main title -->
+	<dimen name="mainTitleHeight">64dp</dimen>
+	<dimen name="mainTitleBtnWd">52dp</dimen>
+	<dimen name="mainTitleBtnHg">52dp</dimen>
+	<dimen name="mainTitleHomeMarginLeft">30dp</dimen>
+	<dimen name="mainTitleHomeMarginRight">30dp</dimen>
+	<dimen name="mainTitleDescTextSize">32dp</dimen>
+	<dimen name="mainTitleDateTextSize">22dp</dimen>
+	<dimen name="mainTitleTimeTextSize">22dp</dimen>
+	<dimen name="mainTitleWeekTextSize">22dp</dimen>
+	<!-- public -->
+	<dimen name="mainImgBtnWd">108dp</dimen>
+	<dimen name="mainImgBtnHg">68dp</dimen>
+	<dimen name="mMainDividerWd">10dp</dimen>
+	<dimen name="mMainDividerHg">21dp</dimen>
+	<dimen name="mMainTreValueWd">56dp</dimen>
+	<dimen name="mMainTreValueHg">86dp</dimen>
+	<dimen name="mainVolumnActionBtnWd">70dp</dimen>
+	<dimen name="mainVolumnActionBtnHg">52dp</dimen>
+	<dimen name="mainVolumnSelectedWd">52dp</dimen>
+	<dimen name="mainVolumnSelectedHg">210dp</dimen>
+	<dimen name="mainCarSelectBtnWd">58dp</dimen>
+	<dimen name="mainCarSelectBtnHg">46dp</dimen>
+	
+	
+</resources>

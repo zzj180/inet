@@ -1,0 +1,34 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/mMainAppIconWd"
+    android:layout_height="@dimen/mMainAppIconHg"
+    >
+    
+    <LinearLayout 
+        android:id="@+id/mFunIconll"
+        android:layout_width="@dimen/mMainAppIconWd"
+        android:layout_height="@dimen/mMainAppIconWd"
+        android:background="@drawable/app_icon_selector"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        >
+        <ImageView
+            android:id="@+id/mFunIcon"
+            style="@style/mMainIconStyle"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/hulian_btn_selector" 
+            />
+	</LinearLayout>
+	
+    <TextView
+        android:id="@+id/mFunTv"
+        style="@style/mMainTvStyle" 
+        android:text="@string/app_name"
+        android:layout_below="@id/mFunIconll"
+        android:layout_marginTop="3dp"
+        android:layout_centerHorizontal="true"
+        android:maxLength="10"
+        />
+
+</RelativeLayout>

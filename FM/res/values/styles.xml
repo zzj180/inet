@@ -1,0 +1,82 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <style name="mainTopHomeOrBackImgBtnStyle" parent="@android:style/Widget.ImageButton">
+        <item name="android:layout_width">@dimen/homeOrBackImgBtnWidth</item>
+        <item name="android:layout_height">@dimen/homeOrBackImgBtnHeight</item>
+        <item name="android:background">@color/trans</item>
+    </style>
+
+    <style name="mainTopFunImgBtnStyle" parent="@android:style/Widget.ImageButton">
+        <item name="android:layout_width">@dimen/funImgBtnWidth</item>
+        <item name="android:layout_height">@dimen/funImgBtnHeight</item>
+        <item name="android:background">@color/trans</item>
+    </style>
+    
+    <style name="mainTopDividStyle">
+        <item name="android:layout_width">@dimen/mainTopDividWidth</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    
+    <style name="mainMiddleSidesStyle">
+        <item name="android:layout_width">@dimen/mainMiddleSidesWidth</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    
+     <style name="mainSidesScanImgBtnStyle" parent="@android:style/Widget.ImageButton">
+        <item name="android:layout_width">@dimen/mainMiddleSidesDisplayImgBtnWidth</item>
+        <item name="android:layout_height">@dimen/mainMiddleSidesDisplayImgBtnHeight</item>
+        <item name="android:background">@color/trans</item>
+    </style>
+    
+      <style name="mainMiddleAdjustImgBtnStyle" parent="@android:style/Widget.ImageButton">
+        <item name="android:layout_width">@dimen/mainMiddleAdjustImgBtnWidth</item>
+        <item name="android:layout_height">@dimen/mainMiddleAdjustImgBtnHeight</item>
+        <item name="android:background">@color/trans</item>
+    </style>
+    
+    <style name="mainTitleBtnStyle" parent="@android:style/Widget.ImageButton">
+        <item name="android:layout_width">@dimen/mainTitleBtnWd</item>
+        <item name="android:layout_height">@dimen/mainTitleBtnHg</item>
+        <item name="android:background">@color/trans</item>
+    </style>
+    
+    <style name="mainTitleText" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+
+        <item name="android:background">@null</item>
+    </style>
+    
+    <style name="mainFunText" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">@dimen/funImgBtnWidth</item>
+        <item name="android:layout_height">@dimen/funImgBtnHeight</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/mainFunTextSize</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/fun_btn_selector</item>
+    </style>
+    
+    <style name="fade_animation">
+        <item name="@android:windowEnterAnimation">@anim/popup_show</item>
+        <item name="@android:windowExitAnimation">@anim/popup_hide</item>
+    </style>
+
+</resources>

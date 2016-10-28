@@ -1,0 +1,335 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <cn.lzl.partycontrol.view.MainTitleView
+        android:id="@+id/mMainTitleView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/mMainPwdLy"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:background="@color/black"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/mainTextLayoutHg"
+            android:background="@drawable/bg" >
+
+            <TextView
+                android:id="@+id/mMainPwdTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textSize="@dimen/mainPswTextSize" 
+                android:inputType="textPassword"
+                />
+
+            <Button
+                android:id="@+id/mMainOkBtn"
+                style="@style/mainBtnStyle"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/mainMargin10Dp" 
+                android:text="@string/ok"
+                />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/mainMargin60Dp"
+            android:layout_marginRight="@dimen/mainMargin60Dp"
+            android:divider="@drawable/space_divider"
+            android:orientation="horizontal"
+            android:showDividers="middle" >
+
+            <Button
+                android:id="@+id/mMainNum1Btn"
+                style="@style/mainBtnStyle"
+                android:text="@string/num1" />
+
+            <Button
+                android:id="@+id/mMainNum2Btn"
+                style="@style/mainBtnStyle"
+                android:text="@string/num2" />
+
+            <Button
+                android:id="@+id/mMainNum3Btn"
+                style="@style/mainBtnStyle"
+                android:text="@string/num2" />
+
+            <Button
+                android:id="@+id/mMainNum4Btn"
+                style="@style/mainBtnStyle"
+                android:text="@string/num4" />
+
+            <Button
+                android:id="@+id/mMainNum5Btn"
+                style="@style/mainBtnStyle"
+                android:text="@string/num5" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/mainMargin60Dp"
+            android:layout_marginRight="@dimen/mainMargin60Dp"
+            android:layout_marginTop="20dp"
+            android:divider="@drawable/space_divider"
+            android:orientation="horizontal"
+            android:showDividers="middle" >
+
+            <Button
+                android:id="@+id/mMainNum6Btn"
+                style="@style/mainBtnStyle"
+                android:text="@string/num6" />
+
+            <Button
+                android:id="@+id/mMainNum7Btn"
+                style="@style/mainBtnStyle"
+                android:text="@string/num7" />
+
+            <Button
+                android:id="@+id/mMainNum8Btn"
+                style="@style/mainBtnStyle"
+                android:text="@string/num8" />
+
+            <Button
+                android:id="@+id/mMainNum9Btn"
+                style="@style/mainBtnStyle"
+                android:text="@string/num9" />
+
+            <Button
+                android:id="@+id/mMainNum0Btn"
+                style="@style/mainBtnStyle"
+                android:text="@string/num0" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mMainSettingLy"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:background="@color/gray"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp" >
+
+            <Button
+                android:id="@+id/mMainSettingModelBtn"
+                style="@style/mainTvStyle"
+                android:layout_centerHorizontal="true"
+                android:clickable="false"
+                android:focusable="false"
+                android:text="@string/default_value" />
+
+            <Button
+                android:id="@+id/mMainLeftBtn"
+                android:layout_width="@dimen/mainDirecWd"
+                android:layout_height="@dimen/mainDirecHg"
+                android:layout_toLeftOf="@id/mMainSettingModelBtn"
+                android:background="@drawable/left_selector" />
+
+            <Button
+                android:id="@+id/mMainRightBtn"
+                android:layout_width="@dimen/mainDirecWd"
+                android:layout_height="@dimen/mainDirecHg"
+                android:layout_toRightOf="@id/mMainSettingModelBtn"
+                android:background="@drawable/right_selector" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/mainMargin10Dp"
+            android:text="@string/desc"
+            android:textSize="15dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/mainMargin10Dp" >
+
+            <Button
+                android:id="@+id/mMainResetBtn"
+                style="@style/mainTvStyle"
+                android:layout_marginLeft="@dimen/mainMargin30Dp"
+                android:layout_marginTop="106dp"
+                android:text="@string/reset" />
+
+            <Button
+                android:id="@+id/mMainSaveBtn"
+                style="@style/mainTvStyle"
+                android:layout_marginLeft="@dimen/mainMargin30Dp"
+                android:layout_marginTop="212dp"
+                android:text="@string/save" />
+
+            <LinearLayout
+                android:id="@+id/mainIconFirstLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/mainMargin30Dp"
+                android:layout_toRightOf="@id/mMainResetBtn"
+                android:divider="@drawable/text_value_divider"
+                android:orientation="vertical"
+                android:showDividers="middle" >
+
+                <ImageView
+                    style="@style/mMainIconStyle"
+                    android:contentDescription="@string/hello_world"
+                    android:src="@drawable/power" />
+
+                <ImageView
+                    style="@style/mMainIconStyle"
+                    android:contentDescription="@string/hello_world"
+                    android:src="@drawable/mode" />
+
+                <ImageView
+                    style="@style/mMainIconStyle"
+                    android:contentDescription="@string/hello_world"
+                    android:src="@drawable/mute" />
+
+                <ImageView
+                    style="@style/mMainIconStyle"
+                    android:contentDescription="@string/hello_world"
+                    android:src="@drawable/ftbw" />
+
+                <ImageView
+                    style="@style/mMainIconStyle"
+                    android:contentDescription="@string/hello_world"
+                    android:src="@drawable/ftfw" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/mainTextFirstLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/mainMargin30Dp"
+                android:layout_toRightOf="@id/mainIconFirstLayout"
+                android:divider="@drawable/text_value_divider"
+                android:orientation="vertical"
+                android:showDividers="middle" >
+
+                <Button
+                    android:id="@+id/mMainPorwerBtn"
+                    style="@style/mainTvStyle"
+                    android:text="@string/default_value" />
+
+                <Button
+                    android:id="@+id/mMainModeBtn"
+                    style="@style/mainTvStyle"
+                    android:text="@string/default_value" />
+
+                <Button
+                    android:id="@+id/mMainVolumeBtn"
+                    style="@style/mainTvStyle"
+                    android:text="@string/default_value" />
+
+                <Button
+                    android:id="@+id/mMainNextBtn"
+                    style="@style/mainTvStyle"
+                    android:text="@string/default_value" />
+
+                <Button
+                    android:id="@+id/mMainPreBtn"
+                    style="@style/mainTvStyle"
+                    android:text="@string/default_value" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/mainIconSecondLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/mainMargin30Dp"
+                android:layout_toRightOf="@id/mainTextFirstLayout"
+                android:divider="@drawable/text_value_divider"
+                android:orientation="vertical"
+                android:showDividers="middle" >
+
+                <ImageView
+                    style="@style/mMainIconStyle"
+                    android:contentDescription="@string/hello_world"
+                    android:src="@drawable/vol_add" />
+
+                <ImageView
+                    style="@style/mMainIconStyle"
+                    android:contentDescription="@string/hello_world"
+                    android:src="@drawable/vol_sub" />
+
+                <ImageView
+                    style="@style/mMainIconStyle"
+                    android:contentDescription="@string/hello_world"
+                    android:src="@drawable/phoneup" />
+
+                <ImageView
+                    style="@style/mMainIconStyle"
+                    android:contentDescription="@string/hello_world"
+                    android:src="@drawable/phonedown" />
+
+                <ImageView
+                    style="@style/mMainIconStyle"
+                    android:contentDescription="@string/hello_world"
+                    android:src="@drawable/play" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/mainTextSecondLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/mainMargin30Dp"
+                android:layout_toRightOf="@id/mainIconSecondLayout"
+                android:divider="@drawable/text_value_divider"
+                android:orientation="vertical"
+                android:showDividers="middle" >
+
+                <Button
+                    android:id="@+id/mMainVolumnAddBtn"
+                    style="@style/mainTvStyle"
+                    android:text="@string/default_value" />
+
+                <Button
+                    android:id="@+id/mMainVolumnSubBtn"
+                    style="@style/mainTvStyle"
+                    android:text="@string/default_value" />
+
+                <Button
+                    android:id="@+id/mMainPhoneAnswerBtn"
+                    style="@style/mainTvStyle"
+                    android:text="@string/default_value" />
+
+                <Button
+                    android:id="@+id/mMainPhoneDropedBtn"
+                    style="@style/mainTvStyle"
+                    android:text="@string/default_value" />
+
+                <Button
+                    android:id="@+id/mMainPauseBtn"
+                    style="@style/mainTvStyle"
+                    android:text="@string/default_value" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/mainMargin10Dp"
+            android:text="@string/desc2"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+</LinearLayout>

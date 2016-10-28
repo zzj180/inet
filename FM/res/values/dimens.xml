@@ -1,0 +1,63 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- main top -->
+    <dimen name="mainTopHeight">64dp</dimen>
+    <dimen name="mainTopDividWidth">8dp</dimen>
+    <dimen name="homeOrBackImgBtnWidth">80dp</dimen>
+    <dimen name="homeOrBackImgBtnHeight">48dp</dimen>
+    <dimen name="funImgBtnWidth">100dp</dimen>
+    <dimen name="funImgBtnHeight">48dp</dimen>
+    <!-- main middle -->
+    <dimen name="mainMiddleHeight">233dp</dimen>
+    <dimen name="mainMiddleSidesWidth">210dp</dimen>
+    <dimen name="mainMiddleSideMarginTop">30dp</dimen>
+    <dimen name="mainMiddleSideMarginleft">30dp</dimen>
+    <dimen name="mainMiddleSideMarginRight">30dp</dimen>
+    <dimen name="mainMiddleSidesListWidth">178dp</dimen>
+    <dimen name="mainMiddleSidesListDividHeight">8dp</dimen>
+    <dimen name="mainMiddleScanWidth">324dp</dimen>
+    <dimen name="displayBgWidth">210dp</dimen>
+    <dimen name="displayBgHeight">178dp</dimen>
+    <dimen name="fqChannelWidth">44dp</dimen>
+    <dimen name="fpChannelHeight">18dp</dimen>
+    <dimen name="displayDivid">8dp</dimen>
+    <dimen name="numWidth">27dp</dimen>
+    <dimen name="numHeight">41dp</dimen>
+    <dimen name="minNumWidth">16dp</dimen>
+    <dimen name="minNumHeight">22dp</dimen>
+    <dimen name="mainMiddleSidesDisplayImgBtnWidth">50dp</dimen>
+    <dimen name="mainMiddleSidesDisplayImgBtnHeight">50dp</dimen>
+    <dimen name="mainMiddleMarginDisplay">15dp</dimen>
+    <dimen name="mainMiddleAdjustImgBtnWidth">60dp</dimen>
+    <dimen name="mainMiddleAdjustImgBtnHeight">60dp</dimen>
+    <dimen name="mainMiddleAdjustDividWidth">8dp</dimen>
+    <dimen name="mainMiddleAdjustDividHeight">60dp</dimen>
+    <dimen name="mainMiddleListItemHeight">54dp</dimen>
+    <dimen name="mainMiddleAutoScanImgBtnWidth">77dp</dimen>
+    <dimen name="mainMiddleAutoScanImgBtnHeight">77dp</dimen>
+    <dimen name="mainFunTextSize">30dp</dimen>
+	<!-- main bottom -->
+	<dimen name="mainBottomFreqHeight">25dp</dimen>
+	<!-- main title -->
+	<dimen name="mainTitleHeight">64dp</dimen>
+	<dimen name="mainTitleBtnWd">52dp</dimen>
+	<dimen name="mainTitleBtnHg">52dp</dimen>
+	<dimen name="mainTitleHomeMarginLeft">30dp</dimen>
+	<dimen name="mainTitleDescTextSize">32dp</dimen>
+	<dimen name="mainTitleDateTextSize">22dp</dimen>
+	<dimen name="mainTitleTimeTextSize">22dp</dimen>
+	<dimen name="mainTitleWeekTextSize">22dp</dimen>
+	<!-- public -->
+	<dimen name="border">30dp</dimen>
+	<dimen name="mMainSpaceDividerWd">20dp</dimen>
+	<dimen name="mMainSpaceDividerHg">30dp</dimen>
+	<dimen name="displayFqSpaceDividerWd">30dp</dimen>
+	<dimen name="displayFqSpaceDividerHg">30dp</dimen>
+	<dimen name="itemMarginLeft">10dp</dimen>
+	<dimen name="itemMarginRight">3dp</dimen>
+	<dimen name="itemFqTs">35dp</dimen>
+	<dimen name="itemPositionTs">25dp</dimen>
+</resources>

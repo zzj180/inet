@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/bt_calling_status_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/str_out_call_status"
+            android:textSize="30sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/bt_calling_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/bg_portrait"
+            android:gravity="center"
+            android:text="@string/contact_initial"
+            android:textColor="#8AFFFFFF"
+            android:textSize="48sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/bt_calling_phone_number"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="3dp"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/contact_name"
+            android:textSize="28dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="6dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btn_voiceswitch_car"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/bg_btn_2"
+                android:scaleType="center"
+                android:src="@drawable/ic_speaker_mirror" />
+
+            <ImageButton
+                android:id="@+id/btn_answer"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/bg_btn_1"
+                android:scaleType="center"
+                android:src="@drawable/ic_call"
+                android:visibility="gone" />
+
+            <ImageButton
+                android:id="@+id/btn_hangup"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/bg_btn_3"
+                android:gravity="bottom"
+                android:scaleType="center"
+                android:src="@drawable/ic_call_end" />
+
+            <ImageButton
+                android:id="@+id/btn_softkeypad"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/bg_btn_1"
+                android:scaleType="center"
+                android:src="@drawable/ic_dialpad" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/calling_softkeypad"
+        android:layout_width="260dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone"
+        >
+
+        <EditText
+            android:id="@+id/calling_input_et"
+            android:layout_width="260dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/list_view_bg"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textSize="28dp"/>
+
+        <LinearLayout
+            android:layout_width="260dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_calling_one"
+                style="@style/MiniDialPadNum"
+                android:text="@string/str_1" 
+                 android:background="@drawable/alph_selector" />
+
+            <Button
+                android:id="@+id/btn_calling_two"
+                style="@style/MiniDialPadNum"
+                android:text="@string/str_2" 
+                 android:background="@drawable/alph_selector" />
+
+            <Button
+                android:id="@+id/btn_calling_three"
+                style="@style/MiniDialPadNum"
+                android:text="@string/str_3" 
+                 android:background="@drawable/alph_selector" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_calling_four"
+                style="@style/MiniDialPadNum"
+                android:text="@string/str_4" 
+                 android:background="@drawable/alph_selector" />
+
+            <Button
+                android:id="@+id/btn_calling_five"
+                style="@style/MiniDialPadNum"
+                android:text="@string/str_5" 
+                 android:background="@drawable/alph_selector" />
+
+            <Button
+                android:id="@+id/btn_calling_six"
+                style="@style/MiniDialPadNum"
+                android:text="@string/str_6" 
+                 android:background="@drawable/alph_selector" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_calling_seven"
+                style="@style/MiniDialPadNum"
+                android:text="@string/str_7"
+                 android:background="@drawable/alph_selector" />
+
+            <Button
+                android:id="@+id/btn_calling_eight"
+                style="@style/MiniDialPadNum"
+                android:text="@string/str_8"
+                android:background="@drawable/alph_selector" />
+
+            <Button
+                android:id="@+id/btn_calling_nine"
+                style="@style/MiniDialPadNum"
+                android:text="@string/str_9"
+                android:background="@drawable/alph_selector" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_calling_zero"
+                style="@style/MiniDialPadNum"
+                android:text="@string/str_0"
+                android:background="@drawable/alph_selector" />
+
+            <Button
+                android:id="@+id/btn_calling_asterisk"
+                style="@style/MiniDialPadNum"
+                android:text="@string/str_asterisk"
+                android:background="@drawable/alph_selector" />
+
+            <Button
+                android:id="@+id/btn_calling_pound"
+                style="@style/MiniDialPadNum"
+                android:text="@string/str_pound"
+                android:background="@drawable/alph_selector" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

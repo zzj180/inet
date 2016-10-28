@@ -1,0 +1,106 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mMainRootRl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include
+        android:id="@+id/mMainBtmInclude"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mMainBtmBg"
+        android:layout_alignParentBottom="true"
+        layout="@layout/activity_main_bottom" />
+
+    <LinearLayout
+        android:id="@+id/mMainAppVp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/mMainBtmInclude"
+        android:layout_marginBottom="@dimen/mMainMarginBtm"
+        android:orientation="vertical" >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/mMainViewPager"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/mMainVpHg" />
+
+        <cn.lzl.laucher.viewpagerindicator.IconPageIndicator
+            android:id="@+id/mMainPageIndicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/mMainTimeLayout"
+        android:layout_width="@dimen/mMainTimeLabelWd"
+        android:layout_height="@dimen/mMainTimeLabelHg"
+        android:layout_above="@id/mMainAppVp"
+        android:layout_marginBottom="@dimen/mMainMarginBtm"
+        android:layout_marginLeft="@dimen/mMainBtmPadding"
+        android:background="@drawable/bg"
+        android:orientation="horizontal" >
+        
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                android:id="@+id/mMainTimeTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textSize="@dimen/mMainTimeLabelTextSize" />
+
+            <TextView
+                android:id="@+id/mMainDateTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/mMainTimeTv"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:gravity="center_horizontal"
+                android:textSize="@dimen/mMainDateLabelTextSize" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/mMainCloseScreen"
+            android:layout_width="@dimen/mMainCloseScreenWd"
+            android:layout_height="@dimen/mMainCloseScreenHg"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/close_screen_selector" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/mMainWeatherLy"
+        android:layout_width="@dimen/mMainTimeLabelWd"
+        android:layout_height="@dimen/mMainTimeLabelHg"
+        android:layout_alignBottom="@id/mMainTimeLayout"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/mMainBtmPadding"
+        android:background="@drawable/bg"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/mMainCityTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal" 
+            android:text="@string/sz_weather"
+            />
+
+        <TextView
+            android:id="@+id/mMainWeatherTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+</RelativeLayout>

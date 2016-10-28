@@ -1,0 +1,60 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <style name="mainTitleBtnStyle" parent="@android:style/Widget.ImageButton">
+        <item name="android:layout_width">@dimen/mainTitleBtnWd</item>
+        <item name="android:layout_height">@dimen/mainTitleBtnHg</item>
+        <item name="android:background">@color/trans</item>
+    </style>
+    
+    <style name="mainTitleText" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@null</item>
+    </style>
+    
+    <style name="mainBtnStyle" parent="@android:style/Widget.Button">
+        <item name="android:layout_width">@dimen/mainImgBtnWd</item>
+        <item name="android:layout_height">@dimen/mainImgBtnHg</item>
+        <item name="android:background">@drawable/item_choice</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">25dp</item>
+    </style>
+    
+    <style name="mainVolumnAddBtnStyle" parent="@android:style/Widget.Button">
+        <item name="android:layout_width">@dimen/mainVolumnActionBtnWd</item>
+        <item name="android:layout_height">@dimen/mainVolumnActionBtnHg</item>
+        <item name="android:background">@drawable/volumn_add_selector</item>
+    </style>
+    
+    <style name="mainVolumnSubBtnStyle" parent="@android:style/Widget.Button">
+        <item name="android:layout_width">@dimen/mainVolumnActionBtnWd</item>
+        <item name="android:layout_height">@dimen/mainVolumnActionBtnHg</item>
+        <item name="android:background">@drawable/volumn_sub_selector</item>
+    </style>
+    
+    <style name="mainCarSelectBtnStyle" parent="@android:style/Widget.Button">
+        <item name="android:layout_width">@dimen/mainCarSelectBtnWd</item>
+        <item name="android:layout_height">@dimen/mainCarSelectBtnHg</item>
+    </style>
+    
+
+</resources>

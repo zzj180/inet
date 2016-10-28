@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/mainTopHeight"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <ImageButton
+        android:id="@+id/mMainTopHomeImgBtn"
+        style="@style/mainTopHomeOrBackImgBtnStyle"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/main_top_home_selector" />
+
+    <View style="@style/mainTopDividStyle" />
+
+    <ImageButton
+        android:id="@+id/mMainTopNearImgBtn"
+        style="@style/mainTopFunImgBtnStyle"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/main_top_near_selector" />
+
+    <View style="@style/mainTopDividStyle" />
+
+    <ImageButton
+        android:id="@+id/mMainTopStoreImgBtn"
+        style="@style/mainTopFunImgBtnStyle"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/main_top_store_selector" />
+
+    <View style="@style/mainTopDividStyle" />
+
+    <ImageButton
+        android:id="@+id/mMainTopScanImgBtn"
+        style="@style/mainTopFunImgBtnStyle"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/main_top_scan_selector" />
+
+    <View style="@style/mainTopDividStyle" />
+
+    <ImageButton
+        android:id="@+id/mMainTopBalancerImgBtn"
+        style="@style/mainTopFunImgBtnStyle"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/main_top_balancer_selector" />
+
+    <View style="@style/mainTopDividStyle" />
+
+    <ImageButton
+        android:id="@+id/mMainTopBackImgBtn"
+        style="@style/mainTopHomeOrBackImgBtnStyle"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/main_top_back_selector" />
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A0000000"
+    android:divider="@drawable/space_divider"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/mMainBtmPadding"
+    android:paddingRight="@dimen/mMainBtmPadding"
+    android:showDividers="middle" 
+    android:id="@+id/mMainBtmRoot"
+    >
+
+    <cn.lzl.laucher.view.AppIconView
+        android:id="@+id/mMainBtmHulian"
+        style="@style/mMainAppIconStyle" />
+
+    <cn.lzl.laucher.view.AppIconView
+        android:id="@+id/mMainBtmFm"
+        style="@style/mMainAppIconStyle" />
+
+    <cn.lzl.laucher.view.AppIconView
+        android:id="@+id/mMainBtmNavigation "
+        style="@style/mMainAppIconStyle" />
+
+    <cn.lzl.laucher.view.AppIconView
+        android:id="@+id/mMainBtmBt"
+        style="@style/mMainAppIconStyle" />
+
+    <cn.lzl.laucher.view.AppIconView
+        android:id="@+id/mMainBtmCamera"
+        style="@style/mMainAppIconStyle" />
+
+    <cn.lzl.laucher.view.AppIconView
+        android:id="@+id/mMainBtmVoiceCon"
+        style="@style/mMainAppIconStyle" />
+
+</LinearLayout>
